@@ -1,8 +1,27 @@
-div
+ul
 {
-    text-align: center;
-    border-radius: 10px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li
+{
     float:left;
+}
+
+li a
+{
     display: block;
-    background-color: rgba(128, 84, 84, 0.867);
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover
+{
+    background-color: #111;
 }
