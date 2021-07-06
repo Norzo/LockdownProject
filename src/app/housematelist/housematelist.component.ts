@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Housemate } from 'src/app/housemate';
 
 @Component({
   selector: 'app-housematelist',
@@ -6,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./housematelist.component.css']
 })
 export class HousematelistComponent implements OnInit {
+
+  housemate : Housemate = {
+    id: 1,
+    name: 'Markus Andhoey'
+  };
 
   constructor() { }
 
