@@ -10,7 +10,9 @@ export class HousematelistComponent implements OnInit {
 
   housemate : Housemate = {
     id: 1,
-    name: 'Markus Andhoey'
+    name: 'Markus Andhoey',
+    houseid: 1,
+    jobid: 1
   };
 
   constructor() { }

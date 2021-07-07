@@ -1,7 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { HousematelistComponent } from './housematelist/housematelist.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  { path: 'housematelist', component: HousematelistComponent }
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
