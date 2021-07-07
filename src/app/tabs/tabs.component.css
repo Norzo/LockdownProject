@@ -18,10 +18,7 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
-  background-color: #111;
-}
-
-#tabwindow {
-  border: 3px solid #73ad21;
+li a:hover
+{
+    background-color: #111;
 }
