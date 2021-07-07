@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Housemate } from 'src/app/housemate';
+import { TabsComponent } from '../tabs/tabs.component';
 
 @Component({
   selector: 'app-housematelist',
